@@ -7,7 +7,7 @@
 <body>
 	<div id="conteiner">
 		<p>podaj imie dziecka:</p>
-		<form method="post" action="znalezione.php">
+		<form method="post" action="md37.dynu.net/baza">
 		<input type="text" id="dziecko" name="dziecko"/>
 		<input type="submit" id="wyslij" value="wyślij" name="wyslij"/>
 		</form>
