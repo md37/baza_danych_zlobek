@@ -1,0 +1,34 @@
+#conteiner{
+border-radius:5px;
+width:200px;
+height:200px;
+margin:auto;
+margin-top:300px;
+background-color:yellow;
+padding:20;
+-webkit-box-shadow: -4px -1px 26px 8px rgba(155,155,161,1);
+-moz-box-shadow: -4px -1px 26px 8px rgba(155,155,161,1);
+box-shadow: -4px -1px 26px 8px rgba(155,155,161,1);
+}
+p{
+font-size:20px;
+}
+#dziecko
+{
+border-radius:5px;
+width:200px;
+height:34px;
+}
+#dziecko:focus
+{
+-webkit-box-shadow: -4px 2px 25px -6px rgba(73,73,153,1);
+-moz-box-shadow: -4px 2px 25px -6px rgba(73,73,153,1);
+box-shadow: -4px 2px 25px -6px rgba(73,73,153,1);
+}
+#wyslij{
+margin-top:10px;
+	width:200px;
+	height:34px;
+}
+
+
