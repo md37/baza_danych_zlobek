@@ -5,15 +5,28 @@
 	<link rel="Stylesheet" href="style.css" type="text/css"/>
 </head>
 <body>
-	<div id="conteiner" style="margin-top:150px;height:400px;">
-		<p >Imię:</p>
-		<form method="post" action="znalezione.php">
-			
-		<input type="text" id="dziecko" name="imie"/>
-		<p >Nazwisko:</p>
-		<input type="text" id="dziecko" name="nazwisko" />
-		<input type="submit" id="wyslij" value="OK" name="wyslij"/>
+ <center>
+	<div id="conteiner" style="margin-top:250px;width:300px;height:300px;">
+		
+		<form method="post" action="http://md37.dynu.net/dodaj.php">
+		
+		<table cellspacing="10">
+		<tr>
+			<td><p >Imię:</p></td>
+			<td><input type="text" id="dziecko" name="imie"/></td>
+		</tr>
+		
+		<tr>
+			<td><p >Nazwisko:</p></td>
+			<td><input type="text" id="dziecko" name="nazwisko" /></td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2"><input type="submit" id="wyslij" value="OK" name="wyslij"  /></td>
+		</tr>
+		</table>
 		</form>
+		
 	</div>
+	</center>
 </body>
 </html>
